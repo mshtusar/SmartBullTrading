@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Risk Management</title>
-    <link rel="shortcut icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghxWw6ikEaB6D7ehyphenhyphenGYt6KpY3nkX3bo-qnJJj_cl39Anok4SEPimiHdfyZ6iA5T-XAze2K2WqYgBVFhLskZe3LIjj0CV2ONn7f6PMH3Hj2R8CnehSMBx14qtmyYKk9a6JCM5bCxTFdfi84oE0ikA7PCRPZyB7lZ1SojXhqwDUTXJms_K8iQEeWXWPRefq-/w200-h200/SmartBullTrading.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
 </head>
@@ -21,18 +21,19 @@
 			<p>FB Page: <a href="https://www.facebook.com/SmartBullTrading" target="_blank">https://www.facebook.com/SmartBullTrading</a></p>
 			<p>FB Group: <a href="https://www.facebook.com/groups/smartbulltrading" target="_blank">https://www.facebook.com/groups/smartbulltrading</a></p>
 			<p>FB Group 2: <a href="https://www.facebook.com/groups/smartbulltradingservices/" target="_blank">https://www.facebook.com/groups/smartbulltradingservices/</a></p>
-			<p>Email: <a href="mailto:smartbulltradingofficial@gmail.com">smartbulltradingofficial@gmail.com</a></p><p><br /></p><p><br /></p>
+			<p>Email: <a href="mailto:smartbulltradingofficial@gmail.com">smartbulltradingofficial@gmail.com</a></p>
 			<p>Blog Address: <a href="https://smartbulltrading.blogspot.com/">SmartBull Trading Blog</a></p><p><br /></p><p><br /></p>
 
         </div> 
 
     </section>
+	
     <section class="row mb-3">
 
 		<div class="risk col-6">
 
             <label for="risk "> Risk ($)</label><br>
-            <input type="number" min="0" value="250" id="risk" class="form-control">
+            <input type="number" min="0" value="100" id="risk" class="form-control">
 
         </div> 
 
@@ -42,7 +43,6 @@
             <select id="list">
             <option value="usd">XXX/USD</option>
 			<option value="gold">XAU/GOLD</option>
-            
             <option value="jpy">XXX/JPY</option>
             <option value="aud">XXX/AUD</option>
             <option value="nzd">XXX/NZD</option>
@@ -75,6 +75,27 @@
         
 
     </section>
+    
+    <section class="row mb-3 calc">
+
+        <p class="col-4">SL: <span id="pips-value"> 0 </span> pips</p>
+        <p class="col-4">Value: $ <span id="pip-value"> 0 </span> /pip</p>
+        <p class="col-4">Lot/Vol: <span id="lot-value"> 0 </span> </p>
+
+
+    </section>
+	<section class="row mb-3">
+		<div class="col-6">
+			<p> Tp 1 = <span id="tp-value-1"> 0 </span> </p>
+			<p> Tp 2 = <span id="tp-value-2"> 0 </span> </p>
+			<p> Tp 2.5 = <span id="tp-value-2a"> 0 </span> </p>
+			<p> Tp 3 = <span id="tp-value-3"> 0 </span> </p>
+			<p> Tp 4 = <span id="tp-value-4"> 0 </span> </p>
+		</div>
+		<div class="col-6">
+			
+		</div>
+	</section>
     
 
 
