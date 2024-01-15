@@ -5,12 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Risk Management</title>
-    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghxWw6ikEaB6D7ehyphenhyphenGYt6KpY3nkX3bo-qnJJj_cl39Anok4SEPimiHdfyZ6iA5T-XAze2K2WqYgBVFhLskZe3LIjj0CV2ONn7f6PMH3Hj2R8CnehSMBx14qtmyYKk9a6JCM5bCxTFdfi84oE0ikA7PCRPZyB7lZ1SojXhqwDUTXJms_K8iQEeWXWPRefq-/w200-h200/SmartBullTrading.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
 </head>
-<body>
-    <p>Telegram: <a href="https://t.me/SmartBullTrading" target="_blank">https://t.me/SmartBullTrading</a></p><p>Admin Chat: <a href="https://t.me/SmartBullTrading_Admin" target="_blank">https://t.me/SmartBullTrading_Admin</a></p><p>YouTube: <a href="https://www.youtube.com/@SmrtBullTrading" target="_blank">https://www.youtube.com/@SmrtBullTrading</a></p><p>FB Page: <a href="https://www.facebook.com/SmartBullTrading" target="_blank">https://www.facebook.com/SmartBullTrading</a></p><p>FB Group: <a href="https://www.facebook.com/groups/smartbulltrading" target="_blank">https://www.facebook.com/groups/smartbulltrading</a></p><p>FB Group 2: <a href="https://www.facebook.com/groups/smartbulltradingservices/" target="_blank">https://www.facebook.com/groups/smartbulltradingservices/</a></p><p>Email: <a href="mailto:smartbulltradingofficial@gmail.com">smartbulltradingofficial@gmail.com</a></p><p><br /></p><p><br /></p>
+<body class="container mt-5">
+    
+
+    <section class="row mb-3">
+
+		<div class="risk col-6">
+			<p>Telegram Channel: <a href="https://t.me/SmartBullTrading" target="_blank">https://t.me/SmartBullTrading</a></p>
+			<p>Admin Chat: <a href="https://t.me/SmartBullTrading_Admin" target="_blank">https://t.me/SmartBullTrading_Admin</a></p>
+			<p>YouTube: <a href="https://www.youtube.com/@SmrtBullTrading" target="_blank">https://www.youtube.com/@SmrtBullTrading</a></p>
+			<p>FB Page: <a href="https://www.facebook.com/SmartBullTrading" target="_blank">https://www.facebook.com/SmartBullTrading</a></p>
+			<p>FB Group: <a href="https://www.facebook.com/groups/smartbulltrading" target="_blank">https://www.facebook.com/groups/smartbulltrading</a></p>
+			<p>FB Group 2: <a href="https://www.facebook.com/groups/smartbulltradingservices/" target="_blank">https://www.facebook.com/groups/smartbulltradingservices/</a></p>
+			<p>Email: <a href="mailto:smartbulltradingofficial@gmail.com">smartbulltradingofficial@gmail.com</a></p><p><br /></p><p><br /></p>
+			<p>Blog Address: <a href="https://smartbulltrading.blogspot.com/">SmartBull Trading Blog</a></p><p><br /></p><p><br /></p>
+
+        </div> 
+
+    </section>
+    <section class="row mb-3">
+
+		<div class="risk col-6">
+
+            <label for="risk "> Risk ($)</label><br>
+            <input type="number" min="0" value="250" id="risk" class="form-control">
+
+        </div> 
+
+		<div class="select col-6">
+
+            <label for="risk ">Select Currency</label><br>
+            <select id="list">
+            <option value="usd">XXX/USD</option>
+			<option value="gold">XAU/GOLD</option>
+            
+            <option value="jpy">XXX/JPY</option>
+            <option value="aud">XXX/AUD</option>
+            <option value="nzd">XXX/NZD</option>
+            <option value="gbp">XXX/GBP</option>
+            <option value="cad">XXX/CAD</option>
+            <option value="chf">XXX/CHF</option>
+        </select>
+
+        </div> 
+        
+        <div class="entry col-6">
+
+            <label for="entry"> Entry </label><br>
+            <input type="number" value="1." min="0" id="entry" class="form-control">
+
+        </div>
+
+        <div class="stoploss col-6">
+
+            <label for="stoploss"> Stop Loss </label><br>
+            <input type="number" value="1." min="0" id="stoploss" class="form-control">
+
+        </div>
+        
+        <div class="col-12">
+
+        <button type="button" id="calculate" class="mt-3 btn btn-secondary btn-sm btn-block" >Calculate</button>
+
+        </div>
+        
+
+    </section>
+    
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
